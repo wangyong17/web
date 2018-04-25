@@ -15,3 +15,7 @@ def blog(req):
 
 def contact(req):
     return render_to_response('index_app/contact.html', {})
+
+def timeline(req):
+    return render_to_response('index_app/timeline.html', {})
+

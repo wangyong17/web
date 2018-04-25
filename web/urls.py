@@ -24,5 +24,6 @@ urlpatterns = [
     url(r'^services/$', iv.services),
     url(r'^blog/$', iv.blog),
     url(r'^contact/$', iv.contact),
+    url(r'^timeline/$', iv.timeline),
     url(r'|^index/$', iv.index),
 ]
